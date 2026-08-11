@@ -1,0 +1,91 @@
+name: environmental-science
+version: "0.1.0"
+concepts:
+  - id: air_quality
+    path: [environment, atmospheric, air_quality]
+    description: Ambient atmospheric pollutant observations and air-quality indicators.
+    aliases: [air quality, atmospheric pollution]
+  - id: nitrogen_dioxide
+    path: [environment, atmospheric, air_quality, pollutants, nitrogen_dioxide]
+    description: Concentration or observation of nitrogen dioxide gas.
+    aliases: [NO2, nitrogen dioxide]
+  - id: nitrogen_oxides
+    path: [environment, atmospheric, air_quality, pollutants, nitrogen_oxides]
+    description: Combined nitrogen oxides including NO and NO2.
+    aliases: [NOx, nitrogen oxides]
+  - id: particulate_matter_pm10
+    path: [environment, atmospheric, air_quality, pollutants, particulate_matter_pm10]
+    description: Particulate matter with aerodynamic diameter up to 10 micrometres.
+    aliases: [PM10, particulate matter 10]
+  - id: particulate_matter_pm25
+    path: [environment, atmospheric, air_quality, pollutants, particulate_matter_pm25]
+    description: Fine particulate matter with aerodynamic diameter up to 2.5 micrometres.
+    aliases: [PM2.5, PM25, particulate matter 2.5]
+  - id: ozone
+    path: [environment, atmospheric, air_quality, pollutants, ozone]
+    description: Ground-level atmospheric ozone observations.
+    aliases: [O3, ozone]
+  - id: ammonia
+    path: [environment, atmospheric, air_quality, pollutants, ammonia]
+    description: Atmospheric ammonia observations.
+    aliases: [NH3, ammonia]
+  - id: carbon_dioxide
+    path: [environment, atmospheric, climate, variables, carbon_dioxide]
+    description: Carbon dioxide or greenhouse-gas observations.
+    aliases: [CO2, carbon dioxide]
+  - id: methane
+    path: [environment, atmospheric, climate, variables, methane]
+    description: Methane or greenhouse-gas observations.
+    aliases: [CH4, methane]
+  - id: temperature
+    path: [environment, atmospheric, meteorology, variables, temperature]
+    description: Air or environmental temperature measurement.
+    aliases: [temperature, temp, air temperature]
+  - id: humidity
+    path: [environment, atmospheric, meteorology, variables, humidity]
+    description: Relative or absolute atmospheric humidity.
+    aliases: [humidity, relative humidity, RH]
+  - id: wind_speed
+    path: [environment, atmospheric, meteorology, variables, wind_speed]
+    description: Atmospheric wind speed measurement.
+    aliases: [wind speed, wind_speed, windspeed]
+  - id: wind_direction
+    path: [environment, atmospheric, meteorology, variables, wind_direction]
+    description: Direction from which wind originates.
+    aliases: [wind direction, wind_direction, winddir]
+  - id: atmospheric_pressure
+    path: [environment, atmospheric, meteorology, variables, atmospheric_pressure]
+    description: Atmospheric or barometric pressure.
+    aliases: [pressure, atmospheric pressure, barometric pressure]
+  - id: transport
+    path: [environment, emissions, sources, transport]
+    description: Emissions attributable to road or other transport.
+    aliases: [traffic, road transport, transport]
+  - id: industry
+    path: [environment, emissions, sources, industry]
+    description: Emissions attributable to industrial processes.
+    aliases: [industrial, industry]
+  - id: agriculture
+    path: [environment, emissions, sources, agriculture]
+    description: Emissions attributable to agriculture or livestock.
+    aliases: [agricultural, agriculture, livestock]
+  - id: residential
+    path: [environment, emissions, sources, residential]
+    description: Emissions attributable to households or residential combustion.
+    aliases: [residential, household]
+  - id: shipping
+    path: [environment, emissions, sources, shipping]
+    description: Emissions attributable to marine shipping.
+    aliases: [shipping, maritime, vessel]
+  - id: surface_water
+    path: [environment, water, surface_water]
+    description: Rivers, lakes, and other surface-water observations.
+    aliases: [surface water, river, lake]
+  - id: groundwater
+    path: [environment, water, groundwater]
+    description: Groundwater and aquifer observations.
+    aliases: [groundwater, aquifer]
+  - id: soil_quality
+    path: [environment, soil, soil_quality]
+    description: Physical or chemical indicators of soil condition.
+    aliases: [soil quality, soil]

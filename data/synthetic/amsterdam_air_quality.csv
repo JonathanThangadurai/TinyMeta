@@ -1,0 +1,4 @@
+timestamp,station_id,no2_ug_m3,pm25_ug_m3,temperature_deg_c,humidity_pct
+2025-01-01T00:00:00Z,AMS042,31.4,12.1,5.3,84
+2025-01-01T01:00:00Z,AMS042,28.9,11.8,5.0,86
+2025-01-01T02:00:00Z,AMS042,,13.2,4.8,87
